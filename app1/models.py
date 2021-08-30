@@ -23,7 +23,7 @@ class Author(models.Model):
         return self.name
 
     class Meta:
-        ordering = ['last_name']
+        ordering = ['name']
 
 class Category(models.Model):
     name = models.CharField(max_length=50, null=True)
