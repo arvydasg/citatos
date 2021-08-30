@@ -1,7 +1,6 @@
 from django.db import models
 from datetime import datetime
 
-
 class Author(models.Model):
     name = models.CharField(max_length=50, null=True)
     bio = models.TextField()
@@ -14,7 +13,6 @@ class Author(models.Model):
     class Meta:
         ordering = ['name']
 
-
 class Category(models.Model):
     name = models.CharField(max_length=50, null=True)
 
@@ -23,7 +21,6 @@ class Category(models.Model):
 
     class Meta:
         ordering = ['name']
-
 
 class Quote(models.Model):
     author = models.ForeignKey(Author, null=True, on_delete= models.SET_NULL)
