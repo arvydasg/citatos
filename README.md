@@ -2,6 +2,7 @@
 
 Gerai, na, kaip tas puslapiukas turi atrodyti.
 
+## funkcijos
 
 * Navigation with these sections
     * Categories
@@ -16,7 +17,7 @@ Gerai, na, kaip tas puslapiukas turi atrodyti.
     * paspaudus ant to mygtuko, virs jo islenda laukelis su randomly sugeneruota quote + author + category
     * paspaudus mygtuka dar karta - quote pasikeicia, atsiranda nauja vietoj jos
 
-* hmm
+## Github
 
 Butu idomu ismeginti django templates, kaip ir siulai :)
 
