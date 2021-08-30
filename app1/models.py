@@ -1,17 +1,6 @@
 from django.db import models
 from datetime import datetime
 
-class Quote(models.Model):
-    author = models.ForeignKey(Author, null=True, on_delete= models.SET_NULL)
-    category = models.ManyToManyField(Category)
-    text = models.TextField(null=True)
-    published = models.DateTimeField("date published", default=datetime.now())
-
-    def __str__(self):
-        return self.quote_text
-
-    class Meta:
-        ordering = ['published']
 
 class Author(models.Model):
     name = models.CharField(max_length=50, null=True)
@@ -25,6 +14,7 @@ class Author(models.Model):
     class Meta:
         ordering = ['name']
 
+
 class Category(models.Model):
     name = models.CharField(max_length=50, null=True)
 
@@ -33,3 +23,16 @@ class Category(models.Model):
 
     class Meta:
         ordering = ['name']
+
+
+class Quote(models.Model):
+    author = models.ForeignKey(Author, null=True, on_delete= models.SET_NULL)
+    category = models.ManyToManyField(Category)
+    text = models.TextField(null=True)
+    published = models.DateTimeField("date published", default=datetime.now())
+
+    def __str__(self):
+        return self.quote_text
+
+    class Meta:
+        ordering = ['published']
