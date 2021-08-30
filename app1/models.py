@@ -26,7 +26,7 @@ class Quote(models.Model):
     author = models.ForeignKey(Author, null=True, on_delete= models.SET_NULL)
     category = models.ManyToManyField(Category)
     text = models.TextField(null=True)
-    published = models.DateTimeField("date published", default=datetime.now())
+    published = models.DateTimeField("date published", auto_now_add=True)
 
     def __str__(self):
         return self.quote_text
