@@ -22,3 +22,5 @@ Gerai, na, kaip tas puslapiukas turi atrodyti.
 Butu idomu ismeginti django templates, kaip ir siulai :)
 
 As taip pat katik susikuriau Github, kaip tikriausiai matai, tad visai butu idomu ismokti daugiau apie ji. Kaip collaborate su kitais zmonemis, branchintis ir pan. Jau apsipratau naudoji github savo projekteliam, pushinti, pullinti ir pan, bet dar yra daug ko ismokti taip pat :)
+
+p.s. nemoku sugrizti i projekto versija pries paskutini ar pries kelis commit. Gal tam reikia branches naudoti? o gal but imanoma tiesiog last commit changes panaikinti?
