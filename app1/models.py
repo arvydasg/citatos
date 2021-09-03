@@ -29,7 +29,7 @@ class Quote(models.Model):
     published = models.DateTimeField("date published", auto_now_add=True)
 
     def __str__(self):
-        return self.quote_text
+        return self.text
 
     class Meta:
         ordering = ['published']
