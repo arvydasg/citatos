@@ -13,6 +13,18 @@ class Author(models.Model):
     class Meta:
         ordering = ['name']
 
+class Book(models.Model):
+    name = models.CharField(max_length=100, null=True)
+    author = models.ForeignKey(Author, null=True, on_delete= models.SET_NULL)
+    summary = models.TextField()
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        ordering = ['name']
+
+
 class Category(models.Model):
     name = models.CharField(max_length=50, null=True)
 
