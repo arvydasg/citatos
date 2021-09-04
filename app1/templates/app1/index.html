@@ -3,19 +3,16 @@
 {% block content %}
 
 <!-- Page content-->
-<div class="container-fluid">
-
-    <h1 class="mt-4">Po viena</h1>
+<div class="container-fluid border border-primary">
+    <h1 class="mt-4 border border-warning">Po viena</h1>
     {% for cit in quote %}
     <div class="container"
-	<div class="row">
-	    <div class="col s12 m6">
-		<div class="card hoverable">
-		    <p>{{cit.text}}</p>
-		    <span class="card-title text-muted">{{cit.author}}</span>
-		    <p style="font-size:70% ">Published {{cit.published}}</p>
-		    <span class="card-title text-muted">From book - {{cit.book}}</span>
-		</div>
+	<div class="row ">
+	    <div class="col s12 m6 border border-danger">
+		<p>{{cit.text}}</p>
+		<span class="card-title text-muted">{{cit.author}}</span>
+		<p style="font-size:70% ">Published {{cit.published}}</p>
+		<span class="card-title text-muted">From book - {{cit.book}}</span>
 	    </div>
 	</div>
 	{% endfor %}

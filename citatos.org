@@ -1,3 +1,6 @@
 * Todo
 - [ ] from which book the quote was taken from
-- [ ] test
+- [ ] let users vot how much they like a certain quote (smiley faces like in some websites)
+- [ ] Let users publish their own quotes after I review them? idk sounds tough
+- [ ] breadcrums so the user doesnt get lost in the site /books/author/etc
+

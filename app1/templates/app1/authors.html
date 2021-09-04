@@ -1,21 +1,21 @@
 {% extends 'app1/header.html' %}
 {% load static %}
-{% block title %} Books ja {% endblock %}
+{% block title %} Authors ja {% endblock %}
 {% block content %}
 
 <!-- Page content-->
 <div class="container-fluid border border-primary">
-    <h1 class="mt-4 border border-warning">Books</h1>
-    {% for boo in book %}
+    <h1 class="mt-4 border border-warning">Authors</h1>
+    {% for auth in author %}
     <div class="container"
 	<div class="row">
 	    <div class="col s12 m6 border border-danger">
 		<div class="card hoverable">
-		    <span class="card-title">{{boo.name}}</span>
-		    <span class="card-subtitle mb-2 text-muted">{{boo.author}}</span>
-		    <p style="font-size:70%">{{boo.published}}</p>
-		    <p>{{boo.summary}}</p>
-		</div>
+		    <span class="card-title">{{auth.name}}</span>
+		    <span class="card-subtitle mb-2 text-muted">{{auth.birth_date}}</span>
+		    <p style="font-size:70%">{{auth.death_date}}</p>
+		    <p>{{auth.bio}}</p>
+	    </div>
 	    </div>
 	</div>
 	{% endfor %}
