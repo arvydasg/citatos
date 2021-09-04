@@ -1,35 +1,36 @@
-# citatos
-
+* citatos
 Gerai, na, kaip tas puslapiukas turi atrodyti.
+* funkcijos
+** Navigation with these sections
+     * Categories
+     * Authors
+     * Random
+     * All (misraine)
+** Quotes by subjecs
+** Quotes by author
+** paspaudus ant quote - show other quotes to explore (related quotes)
+** random quotes generator
+     * tuscias langas su vienu mygtuku
+     * paspaudus ant to mygtuko, virs jo islenda laukelis su randomly sugeneruota quote + author + category
+     * paspaudus mygtuka dar karta - quote pasikeicia, atsiranda nauja vietoj jos
+* Github
 
-## funkcijos
+ Butu idomu ismeginti django templates, kaip ir siulai :)
 
-* Navigation with these sections
-    * Categories
-    * Authors
-    * Random
-    * All (misraine)
-* Quotes by subjecs
-* Quotes by author
-* paspaudus ant quote - show other quotes to explore (related quotes)
-* random quotes generator
-    * tuscias langas su vienu mygtuku
-    * paspaudus ant to mygtuko, virs jo islenda laukelis su randomly sugeneruota quote + author + category
-    * paspaudus mygtuka dar karta - quote pasikeicia, atsiranda nauja vietoj jos
+ As taip pat katik susikuriau Github, kaip tikriausiai matai, tad visai butu idomu ismokti daugiau apie ji. Kaip collaborate su kitais zmonemis, branchintis ir pan. Jau apsipratau naudoji github savo projekteliam, pushinti, pullinti ir pan, bet dar yra daug ko ismokti taip pat :)
 
-## Github
-
-Butu idomu ismeginti django templates, kaip ir siulai :)
-
-As taip pat katik susikuriau Github, kaip tikriausiai matai, tad visai butu idomu ismokti daugiau apie ji. Kaip collaborate su kitais zmonemis, branchintis ir pan. Jau apsipratau naudoji github savo projekteliam, pushinti, pullinti ir pan, bet dar yra daug ko ismokti taip pat :)
-
-p.s. nemoku sugrizti i projekto versija pries paskutini ar pries kelis commit. Gal tam reikia branches naudoti? o gal but imanoma tiesiog last commit changes panaikinti?
-
+ p.s. nemoku sugrizti i projekto versija pries paskutini ar pries kelis commit. Gal tam reikia branches naudoti? o gal but imanoma tiesiog last commit changes panaikinti?
 
 * Todo
-- [ ] from which book the quote was taken from
-- [ ] let users vot how much they like a certain quote (smiley faces like in some websites)
-- [ ] Let users publish their own quotes after I review them? idk sounds tough
+** Easy
+   :LOGBOOK:
+   - Note taken on [2021-09-04 Št 16:23] \\
+     gdgfg
+   :END:
+- [X] <2021-09-04 Št> from which book the quote was taken from
+- [ ] (need help) front page only one quote, not all of them. Next/previous/random buttons
+** Moderate
+- [ ] let users vote how much they like a certain quote (smiley faces like in some websites)
 - [ ] breadcrums so the user doesnt get lost in the site /books/author/etc
-- [ ] front page only one quote, not all of them. Next/previous/random buttons
-
+** Difficult
+- [ ] Let users publish their own quotes after I review them? idk sounds tough
