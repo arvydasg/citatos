@@ -1,0 +1,16 @@
+
+# Table of Contents
+
+1.  [Todo](#org3ab3ad2)
+
+
+<a id="org3ab3ad2"></a>
+
+# Todo
+
+-   [ ] from which book the quote was taken from
+-   [ ] let users vot how much they like a certain quote (smiley faces like in some websites)
+-   [ ] Let users publish their own quotes after I review them? idk sounds tough
+-   [ ] breadcrums so the user doesnt get lost in the site /books/author/etc
+-   [ ] front page only one quote, not all of them. Next/previous/random buttons
+

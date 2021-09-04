@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
+        <meta name="description" contenppt="" />
         <meta name="author" content="" />
         <title>{% block title%} Home? {% endblock %}</title>
         <!-- Favicon-->
@@ -12,6 +12,7 @@
 	<!-- Stylesheet -->
 	<link rel="stylesheet" href="{% static "app1/boot/css/styles.css" %}">
 	<script src="{% static 'app1/boot/js/scripts.js' %}"></script>
+	
     </head>
     <body>
 	<div class="d-flex" id="wrapper">
@@ -42,17 +43,17 @@
 				<li class="nav-item"><a class="nav-link" href="/authors">Authors</a></li>
 				<li class="nav-item"><a class="nav-link" href="/categories">Categories</a></li>
 				<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-				
-				<li class="nav-item dropdown">
-				    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quotes stuff</a>
-				    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="/authors">Authors</a>
-					<a class="dropdown-item" href="/categories">Categories</a>
-					<a class="dropdown-item" href="/books">Books</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="{% static 'app1/img/pic.jpg'%}">Paveiksliukas</a>
-				    </div>
-				</li>
+				<!-- just in case I might need it -->
+				<!-- <li class="nav-item dropdown">
+				     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quotes stuff</a>
+				     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+				     <a class="dropdown-item" href="/authors">Authors</a>
+				     <a class="dropdown-item" href="/categories">Categories</a>
+				     <a class="dropdown-item" href="/books">Books</a>
+				     <div class="dropdown-divider"></div>
+				     <a class="dropdown-item" href="{% static 'app1/img/pic.jpg'%}">Paveiksliukas</a>
+				     </div>
+				     </li> -->
 			    </ul>
 			</div>
 		    </div>
