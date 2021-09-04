@@ -21,5 +21,6 @@ app_name = "app1"               # good to use, listen 14:07 https://www.youtube.
 
 # all paths lead to this urls.py now
 urlpatterns = [
-    path("", views.homepage, name="homepage"),
+    path("", views.index, name="index"),
+    path("books/", views.books, name="books"),
 ]
