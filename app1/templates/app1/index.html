@@ -1,4 +1,4 @@
-{% extends 'app1/header.html' %}
+{% extends 'app1/base.html' %}
 
 {% block content %}
 
@@ -11,10 +11,10 @@
 	<div class="row">
 	    <div class="col s12 m6">
 		<div class="card hoverable">
-		    <span class="card-title">{{cit.author}}</span>
-		    <p style="font-size:70%">Published {{cit.published}}</p>
-		    <span class="card-title">{{cit.book}}</span>
 		    <p>{{cit.text}}</p>
+		    <span class="card-title text-muted">{{cit.author}}</span>
+		    <p style="font-size:70% ">Published {{cit.published}}</p>
+		    <span class="card-title text-muted">From book - {{cit.book}}</span>
 		</div>
 	    </div>
 	</div>
@@ -27,4 +27,4 @@
     </body>
 </html>
 
-    {% endblock %}
+{% endblock %}
