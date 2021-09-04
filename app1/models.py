@@ -41,7 +41,7 @@ class Quote(models.Model):
     author = models.ForeignKey(Author, null=True, on_delete= models.SET_NULL)
     category = models.ManyToManyField(Category)
     text = models.TextField(null=True)
-    book = models.ForeignKey(Book, null=True, on_delete= models.SET_NULL)
+    book = models.ForeignKey(Book, null=True, blank=True, on_delete= models.SET_NULL)
     published = models.DateTimeField("date published", auto_now_add=True)
 
 
