@@ -1,10 +1,10 @@
-{% extends 'app1/base.html' %}
-
+{% extends 'app1/header.html' %}
+{% load static %}
+{% block title %} Books ja {% endblock %}
 {% block content %}
 
 <!-- Page content-->
 <div class="container-fluid">
-
     <h1 class="mt-4">Books</h1>
     {% for boo in book %}
     <div class="container"
