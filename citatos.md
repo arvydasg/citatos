@@ -1,21 +1,21 @@
 
 # Table of Contents
 
-1.  [Todo](#org1320921)
-        1.  [Easy](#org8445112)
-        2.  [Moderate](#orgbf7e170)
-        3.  [Difficult](#org95610ee)
-2.  [About](#orgcfb0105)
+1.  [Todo](#orgb97cf08)
+    1.  [Easy](#org26160cd)
+    2.  [Moderate](#orgb683e29)
+    3.  [Difficult](#orgddefaae)
+2.  [About](#orgb5d2056)
 
 
-<a id="org1320921"></a>
+<a id="orgb97cf08"></a>
 
 # Todo
 
 
-<a id="org8445112"></a>
+<a id="org26160cd"></a>
 
-### Easy
+## Easy
 
 -   [ ] (need help) front page only one quote, not all of them. Next/previous/random buttons
 -   [X] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-09-04 Št&gt; </span></span> from which book the quote was taken from
@@ -24,18 +24,18 @@
 -   [ ] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-30 Pr&gt; </span></span> First ever pull request with Git by Karina!!
 
 
-<a id="orgbf7e170"></a>
+<a id="orgb683e29"></a>
 
-### Moderate
+## Moderate
 
 -   [ ] let users vote how much they like a certain quote (smiley faces like in some websites)
 -   [ ] breadcrums so the user doesnt get lost in the site /books/author/etc
 -   [ ] paspaudus ant quote - show other quotes to explore (related quotes)
 
 
-<a id="org95610ee"></a>
+<a id="orgddefaae"></a>
 
-### Difficult
+## Difficult
 
 -   [ ] Let users publish their own quotes after I review them? idk sounds tough
 -   [ ] random quotes generator
@@ -44,7 +44,7 @@
     -   [ ] paspaudus mygtuka dar karta - quote pasikeicia, atsiranda nauja vietoj jos
 
 
-<a id="orgcfb0105"></a>
+<a id="orgb5d2056"></a>
 
 # About
 
