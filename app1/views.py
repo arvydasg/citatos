@@ -5,5 +5,5 @@ from .models import Quote
 # Create your views here.
 def homepage(request):
     return render(request=request,
-                  template_name="app1/inbox.html",
+                  template_name="app1/index.html",
                   context={"quote": Quote.objects.all})
