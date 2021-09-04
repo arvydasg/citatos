@@ -21,3 +21,13 @@
   - [ ] paspaudus mygtuka dar karta - quote pasikeicia, atsiranda nauja vietoj jos
 
 * About
+
+This will be a page where I will store all the quotes that I have read/heard/saw
+during my travel years. I like to keep things. And share with others.
+
+Trying to work with Django as well as databases. It's completely new for me, but
+I like how much control it gives me.
+
+Not paying much importance to front end stuff with this project.
+
+

@@ -1,19 +1,19 @@
 
 # Table of Contents
 
-1.  [Todo](#orgb97cf08)
-    1.  [Easy](#org26160cd)
-    2.  [Moderate](#orgb683e29)
-    3.  [Difficult](#orgddefaae)
-2.  [About](#orgb5d2056)
+1.  [Todo](#org3c7cb1f)
+    1.  [Easy](#orga4cb7a3)
+    2.  [Moderate](#org541ed6f)
+    3.  [Difficult](#org6ea7ded)
+2.  [About](#org9a0a199)
 
 
-<a id="orgb97cf08"></a>
+<a id="org3c7cb1f"></a>
 
 # Todo
 
 
-<a id="org26160cd"></a>
+<a id="orga4cb7a3"></a>
 
 ## Easy
 
@@ -24,7 +24,7 @@
 -   [ ] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-30 Pr&gt; </span></span> First ever pull request with Git by Karina!!
 
 
-<a id="orgb683e29"></a>
+<a id="org541ed6f"></a>
 
 ## Moderate
 
@@ -33,7 +33,7 @@
 -   [ ] paspaudus ant quote - show other quotes to explore (related quotes)
 
 
-<a id="orgddefaae"></a>
+<a id="org6ea7ded"></a>
 
 ## Difficult
 
@@ -44,7 +44,15 @@
     -   [ ] paspaudus mygtuka dar karta - quote pasikeicia, atsiranda nauja vietoj jos
 
 
-<a id="orgb5d2056"></a>
+<a id="org9a0a199"></a>
 
 # About
+
+This will be a page where I will store all the quotes that I have read/heard/saw
+during my travel years. I like to keep things. And share with others.
+
+Trying to work with Django as well as databases. It's completely new for me, but
+I like how much control it gives me.
+
+Not paying much importance to front end stuff with this project.
 
