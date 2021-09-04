@@ -1,0 +1,30 @@
+{% extends 'app1/header.html' %}
+
+{% block content %}
+
+<!-- Page content-->
+<div class="container-fluid">
+
+    <h1 class="mt-4">Books</h1>
+    {% for cit in quote %}
+    <div class="container"
+	<div class="row">
+	    <div class="col s12 m6">
+		<div class="card hoverable">
+		    <span class="card-title">{{cit.author}}</span>
+		    <p style="font-size:70%">Published {{cit.published}}</p>
+		    <span class="card-title">{{cit.book}}</span>
+		    <p>{{cit.text}}</p>
+		</div>
+	    </div>
+	</div>
+	{% endfor %}
+    </div>
+</div>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+
+{% endblock %}
