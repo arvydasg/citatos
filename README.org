@@ -7,25 +7,22 @@ Trying to work with Django as well as databases. It's completely new for me, but
 Not paying much importance to front end stuff with this project.
 
 * Todo
-** Easy
+** Easy tasks(Quotes) [3/4]
    :LOGBOOK:
    - Note taken on [2021-09-04 Št 16:23] \\
-     gdgfg
-   :END:
-- [ ] (need help) front page only one quote, not all of them. Next/previous/random buttons
-- [X] <2021-09-04 Št> from which book the quote was taken from
+- [ ] <2021-09-04 Št> from which book the quote was taken from
 - [X] <2021-09-04 Št> Navigation bar with sections(categories, athors, books, etc)
 - [X] <2021-08-30 Pr> Karina helped with models, amazing, thanks!!
-- [ ] <2021-08-30 Pr> First ever pull request with Git by Karina!!
-** Moderate
+- [X] <2021-08-30 Pr> First ever pull request with Git by Karina!!
+** Moderate tasks(Quotes) [0/3]
 - [ ] let viewers vote how much they like a certain quote (smileys)
 - [ ] breadcrums so the user doesnt get lost in the site /books/author/etc
 - [ ] paspaudus ant quote - show other quotes to explore (related quotes)
-** Difficult
+** Difficult tasks(quotes) [0/2]
 - [ ] Let users publish their own quotes after I review them? idk sounds tough
 - [ ] random quotes generator
-  - [ ] tuscias langas su vienu mygtuku
-  - [ ] paspaudus ant mygtuko, islenda laukelis su randomly sugeneruota quote
-  - [ ] paspaudus mygtuka dar karta - quote pasikeici
+- [ ] tuscias langas su vienu mygtuku
+- [ ] paspaudus ant mygtuko, islenda laukelis su randomly sugeneruota quote
+- [ ] paspaudus mygtuka dar karta - quote pasikeici
 
 

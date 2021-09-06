@@ -1,14 +1,14 @@
 
 # Table of Contents
 
-1.  [About](#org0f4fb60)
-2.  [Todo](#orgb8a473b)
-    1.  [Easy](#org6593287)
-    2.  [Moderate](#orgee7969c)
-    3.  [Difficult](#org51c25c4)
+1.  [About](#orga3cdeb6)
+2.  [Todo](#orga56f8b0)
+    1.  [Easy tasks(Quotes) <code>[3/4]</code>](#org72d2812)
+    2.  [Moderate tasks(Quotes) <code>[0/3]</code>](#orge92412f)
+    3.  [Difficult tasks(quotes) <code>[0/2]</code>](#orgb78e150)
 
 
-<a id="org0f4fb60"></a>
+<a id="orga3cdeb6"></a>
 
 # About
 
@@ -19,38 +19,41 @@ Trying to work with Django as well as databases. It's completely new for me, but
 Not paying much importance to front end stuff with this project.
 
 
-<a id="orgb8a473b"></a>
+<a id="orga56f8b0"></a>
 
 # Todo
 
 
-<a id="org6593287"></a>
+<a id="org72d2812"></a>
 
-## Easy
+## Easy tasks(Quotes) <code>[3/4]</code>
 
--   [ ] (need help) front page only one quote, not all of them. Next/previous/random buttons
--   [X] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-09-04 Št&gt; </span></span> from which book the quote was taken from
+:LOGBOOK:
+
+-   Note taken on <span class="timestamp-wrapper"><span class="timestamp">[2021-09-04 Št 16:23] </span></span>
+
+-   [ ] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-09-04 Št&gt; </span></span> from which book the quote was taken from
 -   [X] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-09-04 Št&gt; </span></span> Navigation bar with sections(categories, athors, books, etc)
 -   [X] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-30 Pr&gt; </span></span> Karina helped with models, amazing, thanks!!
--   [ ] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-30 Pr&gt; </span></span> First ever pull request with Git by Karina!!
+-   [X] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-30 Pr&gt; </span></span> First ever pull request with Git by Karina!!
 
 
-<a id="orgee7969c"></a>
+<a id="orge92412f"></a>
 
-## Moderate
+## Moderate tasks(Quotes) <code>[0/3]</code>
 
 -   [ ] let viewers vote how much they like a certain quote (smileys)
 -   [ ] breadcrums so the user doesnt get lost in the site /books/author/etc
 -   [ ] paspaudus ant quote - show other quotes to explore (related quotes)
 
 
-<a id="org51c25c4"></a>
+<a id="orgb78e150"></a>
 
-## Difficult
+## Difficult tasks(quotes) <code>[0/2]</code>
 
 -   [ ] Let users publish their own quotes after I review them? idk sounds tough
 -   [ ] random quotes generator
-    -   [ ] tuscias langas su vienu mygtuku
-    -   [ ] paspaudus ant mygtuko, islenda laukelis su randomly sugeneruota quote
-    -   [ ] paspaudus mygtuka dar karta - quote pasikeici
+-   [ ] tuscias langas su vienu mygtuku
+-   [ ] paspaudus ant mygtuko, islenda laukelis su randomly sugeneruota quote
+-   [ ] paspaudus mygtuka dar karta - quote pasikeici
 
