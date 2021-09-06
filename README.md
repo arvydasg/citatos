@@ -1,14 +1,14 @@
 
 # Table of Contents
 
-1.  [About](#org2e91c01)
-2.  [Todo](#org5fa44e9)
-    1.  [Easy tasks <code>[4/4]</code>](#org9a8cdcc)
-    2.  [Moderate tasks <code>[0/3]</code>](#org8c478af)
-    3.  [Difficult tasks <code>[0/2]</code>](#org3a193d4)
+1.  [About](#orgac52d97)
+2.  [Todo](#orgcc91168)
+    1.  [Easy tasks <code>[4/4]</code>](#org56215f3)
+    2.  [Moderate tasks <code>[0/3]</code>](#orge8df174)
+    3.  [Difficult tasks <code>[0/2]</code>](#org443afc8)
 
 
-<a id="org2e91c01"></a>
+<a id="orgac52d97"></a>
 
 # About
 
@@ -19,12 +19,12 @@ Trying to work with Django as well as databases. It's completely new for me, but
 Not paying much importance to front end stuff with this project.
 
 
-<a id="org5fa44e9"></a>
+<a id="orgcc91168"></a>
 
 # Todo
 
 
-<a id="org9a8cdcc"></a>
+<a id="org56215f3"></a>
 
 ## Easy tasks <code>[4/4]</code>
 
@@ -34,7 +34,7 @@ Not paying much importance to front end stuff with this project.
 -   [X] <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-30 Pr&gt; </span></span> First ever pull request with Git by Karina!!
 
 
-<a id="org8c478af"></a>
+<a id="orge8df174"></a>
 
 ## Moderate tasks <code>[0/3]</code>
 
@@ -43,13 +43,13 @@ Not paying much importance to front end stuff with this project.
 -   [ ] paspaudus ant quote - show other quotes to explore (related quotes)
 
 
-<a id="org3a193d4"></a>
+<a id="org443afc8"></a>
 
 ## Difficult tasks <code>[0/2]</code>
 
 -   [ ] Let users publish their own quotes after I review them? idk sounds tough
 -   [ ] random quotes generator
-    -   [ ] tuscias langas su vienu mygtuku
-    -   [ ] paspaudus ant mygtuko, islenda laukelis su randomly sugeneruota quote
-    -   [ ] paspaudus mygtuka dar karta - quote pasikeici
+-   [ ] tuscias langas su vienu mygtuku
+-   [ ] paspaudus ant mygtuko, islenda laukelis su randomly sugeneruota quote
+-   [ ] paspaudus mygtuka dar karta - quote pasikeici
 

@@ -19,8 +19,8 @@ Not paying much importance to front end stuff with this project.
 ** Difficult tasks [0/2]
 - [ ] Let users publish their own quotes after I review them? idk sounds tough
 - [ ] random quotes generator
-  - [ ] tuscias langas su vienu mygtuku
-  - [ ] paspaudus ant mygtuko, islenda laukelis su randomly sugeneruota quote
-  - [ ] paspaudus mygtuka dar karta - quote pasikeici
+- [ ] tuscias langas su vienu mygtuku
+- [ ] paspaudus ant mygtuko, islenda laukelis su randomly sugeneruota quote
+- [ ] paspaudus mygtuka dar karta - quote pasikeici
 
 
