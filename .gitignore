@@ -1,1 +1,3 @@
 *.org
+app1/migrations/
+app1/__pycache__/
