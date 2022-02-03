@@ -23,6 +23,7 @@ class Category(models.Model):
         ordering = ['name']
 
 class Quote(models.Model):
+    """ A model for good quotes by famous people"""
     author = models.ForeignKey(Author, null=True, on_delete= models.SET_NULL)
     category = models.ManyToManyField(Category)
     text = models.TextField(null=True)
