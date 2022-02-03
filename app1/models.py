@@ -11,7 +11,7 @@ class Author(models.Model):
         return self.name
 
     class Meta:
-        ordering = ['name']
+        ordering = ['birth_date']
 
 class Category(models.Model):
     name = models.CharField(max_length=50, null=True)
